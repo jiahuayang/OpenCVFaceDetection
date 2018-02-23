@@ -1,0 +1,34 @@
+//
+//  OpenCVFaceDetection.pch
+//  OpenCVFaceDetection
+//
+//  Created by yangjiahua on 2018/2/22.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef OpenCVFaceDetection_pch
+#define OpenCVFaceDetection_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+
+#define XLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define XLog(...)
+
+#endif
+
+#endif
+
+
+#endif /* OpenCVFaceDetection_pch */

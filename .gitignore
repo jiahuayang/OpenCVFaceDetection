@@ -1,0 +1,4 @@
+OpenCVFaceDetectionTests/*
+OpenCVFaceDetectionUITests/*
+.DS_Store
+opencv2.framework/*
